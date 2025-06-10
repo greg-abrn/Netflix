@@ -1,0 +1,17 @@
+* {
+  background-color: black;
+}
+
+header img {
+  height: 100px;
+  margin-left: 50px;
+}
+
+h2 {
+  color: white;
+  margin-left: 50px;
+}
+
+section div {
+  margin-left: 50px;
+}
