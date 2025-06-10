@@ -9,9 +9,26 @@ header img {
 
 h2 {
   color: white;
-  margin-left: 50px;
+  font-size: 22px;
+  margin: 30px 0 30px 50px;
 }
 
 section div {
   margin-left: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+
+section div::-webkit-scrollbar {
+  display: none;
+}
+
+div img {
+  height: 150px;
+  margin-right: 10px;
+}
+
+div img:hover {
+  cursor: pointer;
 }
